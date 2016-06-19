@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!--Text Rotation!-->
+    <script type="text/javascript" src="js/jquery.simple-text-rotator.js"></script>
+    <script type="text/javascript" src="js/jquery.simple-text-rotator.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/simpletextrotator.css"/>
+    <!--Gallery Plugin-->
+    <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.mixitup.js"></script>
+    <link href="http://cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+    <script src="http://cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <link type="text/css" rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/animate.css"/>
+    <link type="text/css" rel="stylesheet" href="ring.css"/>
+
+    <script src="background/particles.js"></script>
+
+
+    <link rel="icon" type="image/png" href="fav.png"/>
+
+    <!--Mobile Menu -->
+    <script src="js/mobile-menu.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.min.js"></script>
+    <!--Slider Links -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/jquery.bxslider.css"/>
+
+
+    <!--Meta Information-->
+    <title>Alex Wiley Design</title>
+    <meta property="og:title" content="Alex Wiley Design"/>
+    <meta property="og:description" content="Professional Designer / Website Developer studying computer science in Birmingham, United Kingdom."/>
+    <meta property="og:image" content="asset/alex-share.jpg"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://www.alexwiley.co.uk/index.html"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <meta name="description" content="Professional Designer / Website Developer studying computer science in Birmingham, United Kingdom. I offer bespoke, modern & fresh websites for individuals or businesses looking to enhance their online ventures.">
+    <meta name="keywords" content="website, developer, designer, code, birmingham, local, experience, student, unique, bespoke, business, html, css, JS, jQuery, Python, photoshoot, content creation, website development, website design, programming, experience, united kingdom, London, Manchester, Leeds, Liverpool, BCU, Birmingham City University, hackathon, international">
+    <meta name="author" content="Alex Wiley">
+  </head>
+
+  <body>
+    <div class="pageLoad">
+      <div class="page-load-content h1">
+        <div class='uil-ring-css' style='transform:scale(0.99);'><div></div></div>
+        <!-- <img src="http://loading.io/loader/?use=eyJzaXplIjoyNCwic3BlZWQiOjEsImNiayI6IiMwMDAwMDAiLCJjMSI6IiNmZmZmZmYiLCJ0eXBlIjoicmluZyJ9" width="60px" height="60px"/> -->
+        <h1>Alex <span>Wiley</span></h1>
+      </div>
+    </div>
+    <header>
+      <div class="hold">
+        <div class="navigation h1">
+          <a href="#header">
+          <div class="logo-container">
+            <div class="logo"></div>
+            <h1>Alex <span>Wiley</span></h1>
+          </div>
+          </a>
+            <nav>
+            <ul id="top-menu">
+              <li><a href="#header">HOME</a></li>
+              <li><a href="#about">ABOUT ME</a></li>
+              <li><a href="#skills">MY SKILLS</a></li>
+              <li id="portfolio-nav"><a href="#portfolio">PREVIOUS WORK</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="mobile-nav">
+              <div class="mobile-icon" id="mob-menu-1"></div>
+              <div class="mobile-icon"></div>
+              <div class="mobile-icon"></div>
+              <div class="mobile-close mobile-nav-container">
+                <ul id="mobile-menu">
+                	<li><i class="ion-ios-body-outline"></i><a href="#about" class="mobile-menu-link">About Me</a></li>
+                	<li><i class="ion-ios-settings"></i><a href="#skills" class="mobile-menu-link">My Skills</a></li>
+                	<li><i class="ion-aperture"></i><a href="#portfolio" class="mobile-menu-link">Portfolio</a></li>
+                	<li><i class="ion-ios-chatboxes-outline"></i><a href="#contact" class="mobile-menu-link">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="header">
+      <div class="header h1">
+        <div class="header-block animated">
+          <h1 class="text-animation">Professional: <span class="rotate">Designer, Developer</span></h1>
+          <h3>Freelance Website Developer & Computer Science Student</h3>
+          <div class="rotateMe"></div>
+          <a href="#about"><button type="button" class="animated">Get To Know Me</button></a>
+      </div>
+      </div>
+    </section>
+
+    <section id="fun-particle">
+    </section>
+
+    <section id="about">
+      <div class="about-title h1 animated">
+        <h2>About <span>Me</span></h2>
+        <hr/>
+      </div>
+      <div class="about-box animated">
+        <div class="about-box-container">
+          <div class="box1">
+            <div class="circle">
+              <img src="asset/About/education.png" alt="Education & Experience"/>
+            </div>
+            <h3>Education & Experience</h3>
+            <input type="checkbox" class="read-more-state" id="box1" />
+            <p class="read-more-wrap">Currently I study computer science at university. Prior to university I built up over a year of experience in industry as a technical support software engineer for Muse-Themes.com. <span class="read-more-target"> I have worked in web development for two years now working on a range of projects.</span></p>
+            <label for="box1" class="read-more-trigger"></label>
+          </div>
+          <div class="box2">
+            <div class="circle">
+              <img src="asset/About/design.png" alt="Graphic Design"/>
+            </div>
+            <h3>Design</h3>
+            <p>Good design has always been a passion of mine. Without good design comes a lack of usability and user friendliness. The importance to marry well thought out, functional design with well programmed code is an area of high importance to me.</p>
+          </div>
+          <div class="box3">
+            <div class="circle">
+              <img src="asset/About/web dev.png" alt="Website Development"/>
+            </div>
+            <h3>Website Development</h3>
+            <input type="checkbox" class="read-more-state" id="box3" />
+            <p class="read-more-wrap">Beautiful website design and high quality functionality is my passion. over my three years of learning website development I have picked up a range of tricks and tools to create the best websites possible for my clients. <span class="read-more-target">From static one page sites to complex sites composing of various elements; each and every site is just as important me.</span></p>
+            <label for="box3" class="read-more-trigger"></label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients">
+      <h2 class="animated">Past <span>Clients</span></h2>
+      <hr class="animated"/>
+      <div class="client-logo-container animated">
+        <ul class="slider">
+          <li><a href="http://www.adaptiveflair.com" target="_blank"><img src="asset/clients/af.png" alt="Adaptive Flair" border="0"/></a></li>
+          <li><a href="http://www.lussoegusto.com/" target="_blank"><img src="asset/clients/lusso.png" alt="Lusso e Gusto" border="0"/></a></li>
+          <li><a href="http://www.adobe.com/" target="_blank"><img src="asset/clients/adobe.png" alt="Adobe" border="0"/></a></li>
+          <li><a href="http://www.muse-themes.com/" target="_blank"><img src="asset/clients/muse.png" alt="Muse-Themes" border="0"/></a></li>
+          <li><a href="http://www.thewebcreator.co.uk/" target="_blank"><img src="asset/clients/webcreator.png" alt="The Web Creator" border="0"/></a></li>
+          <li><a href="http://www.akrams.biz/" target="_blank"><img src="asset/clients/akrams.png" alt="Akrams" border="0"/></a></li>
+        </ul>
+      </div>
+      <script>
+        $(document).ready(function(){
+          $('.slider').bxSlider({
+            minSlides: 2,
+            maxSlides: 3,
+            slideWidth: 300,
+            slideMargin: 50,
+            ticker: true,
+            speed: 30000,
+            tickerHover: true,
+            easing: 'ease'
+          });
+        });
+      </script>
+    </section>
+
+
+    <section id="skills">
+      <div class="skills-content">
+        <div class="skills-title h1">
+          <h2 class="animated">My <span>skills</span></h2>
+          <hr class="animated"/>
+        </div>
+        <div class="skills-container animated">
+          <div class="skill h2">
+            <img src="asset/Skills/web-development.png" alt="Website Development"/>
+            <h3>Website<br/>Development</h3>
+          </div>
+          <div class="skill h2">
+            <img src="asset/Skills/font-designe.png" alt="Website Development"/>
+            <h3>Graphic<br/>Design</h3>
+          </div>
+          <div class="skill h2">
+            <img src="asset/Skills/programming.png" alt="Website Development"/>
+            <h3>Website<br/>Design</h3>
+          </div>
+          <div class="skill h2">
+            <img src="asset/Skills/shutter-camera.png" alt="Website Development"/>
+            <h3>Content<br/>Creation</h3>
+          </div>
+        </div>
+      </div>
+      <div id="particles-js"></div>
+    </section>
+
+    <section id="portfolio">
+      <div class="portfolio-title h1 animated">
+        <h2>My <span>Work</span></h2>
+        <hr/>
+      </div>
+      <div class="gallery-filters animated">
+        <div class="filter" data-filter="all"><img src="asset/Portfolio/loupe.png" alt="View All"/><p>ALL</p></div>
+        <div class="filter" data-filter=".category-1"><img src="asset/Portfolio/web.png" alt="Website Design"/><p>WEB</p></div>
+        <div class="filter" data-filter=".category-2"><img src="asset/Portfolio/computer.png" alt="Hackathons"/><p>HACKATHON</p></div>
+        <div class="filter" data-filter=".category-3"><img src="asset/Portfolio/picture.png" alt="Content Creation"/><p>CONTENT</p></div>
+      </div>
+      <div class="portfolio-container animated">
+        <div class="p1 p-content category-1 mix" data-myorder="1"><div data-featherlight="#p1"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p2 p-content category-1 mix" data-myorder="2"><div data-featherlight="#p2"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p3 p-content category-1 mix" data-myorder="3"><div data-featherlight="#p3"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p4 p-content category-1 mix" data-myorder="4"><div data-featherlight="#p4"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p5 p-content category-2 mix" data-myorder="5"><div data-featherlight="#p5"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p6 p-content category-2 mix" data-myorder="6"><div data-featherlight="#p6"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p7 p-content category-1 mix" data-myorder="7"><div data-featherlight="#p7"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p8 p-content category-1 mix" data-myorder="8"><div data-featherlight="#p8"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p9 p-content category-3 mix" data-myorder="6"><div data-featherlight="#p9"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p10 p-content category-3 mix" data-myorder="7"><div data-featherlight="#p10"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p11 p-content category-3 mix" data-myorder="8"><div data-featherlight="#p11"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p12 p-content category-3 mix" data-myorder="8"><div data-featherlight="#p12"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p13 p-content category-3 mix" data-myorder="6"><div data-featherlight="#p13"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p14 p-content category-3 mix" data-myorder="7"><div data-featherlight="#p14"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p15 p-content category-3 mix" data-myorder="8"><div data-featherlight="#p15"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p16 p-content category-3 mix" data-myorder="8"><div data-featherlight="#p16"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p17 p-content category-2 mix" data-myorder="8"><div data-featherlight="#p17"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p18 p-content category-2 mix" data-myorder="8"><div data-featherlight="#p18"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p19 p-content category-3 mix" data-myorder="8"><div data-featherlight="#p19"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p20 p-content category-3 mix" data-myorder="8"><div data-featherlight="#p20"><span class="ion-ios-search-strong"></span></div></div>
+      </div>
+      <!--Lightbox Elements-->
+      <!-- <div class="lightbox" id="p1">
+        <img src="asset/Portfolio/web/webcreator.jpg" alt="The Web Creator"/>
+        <ul>
+          <li><h3>TheWebCreator</h3></li>
+          <li><p>Website Design</p></li>
+        </ul>
+        <a href="http://www.thewebcreator.co.uk" target="_blank"><button>View Site</button></a>
+      </div> -->
+
+      <div class="lightbox" id="p2">
+        <img src="asset/Portfolio/web/lussoegusto.jpg" alt="Lusso e Gusto"/>
+        <ul>
+          <li><h3>Lusso e Gusto</h3></li>
+          <li><p>Website Design</p></li>
+        </ul>
+        <a href="http://www.lussoegusto.com" target="_blank"><button>View Site</button></a>
+      </div>
+
+      <div class="lightbox" id="p3">
+        <img src="asset/Portfolio/web/akrams.jpg" alt="Akrams"/>
+        <ul>
+          <li><h3>Akrams</h3></li>
+          <li><p>Website Design</p></li>
+        </ul>
+        <a href="http://www.akrams.biz" target="_blank"><button>View Site</button></a>
+      </div>
+
+      <div class="lightbox" id="p4">
+        <img src="asset/Portfolio/web/adaptive-flair.jpg" alt="Adaptive Flair"/>
+        <ul>
+          <li><h3>Adaptive Flair</h3></li>
+          <li><p>Website Design</p></li>
+        </ul>
+        <a href="http://www.adaptiveflair.com" target="_blank"><button>View Site</button></a>
+      </div>
+
+      <div class="lightbox" id="p5">
+        <img src="asset/Portfolio/hackathon/codeacation.jpg" alt="Codeacation"/>
+        <ul>
+          <li><h3>Codeacation</h3></li>
+          <li><p>Website Design</p></li>
+        </ul>
+        <a href="http://bcuhack.alexwiley.co.uk" target="_blank"><button>View Site</button></a>
+      </div>
+
+      <div class="lightbox" id="p6">
+        <img src="asset/Portfolio/hackathon/hoard.jpg" alt="Do you even hoard?"/>
+        <ul>
+          <li><h3>Do you even hoard?</h3></li>
+          <li><p>Website Design</p></li>
+        </ul>
+        <a href="http://www.doyouevenhoard.com" target="_blank"><button>View Site</button></a>
+      </div>
+
+      <div class="lightbox" id="p7">
+        <img src="asset/Portfolio/web/alexwiley.jpg" alt="Alex Wiley"/>
+        <ul>
+          <li><h3>Alex wiley</h3></li>
+          <li><p>Website Design</p></li>
+        </ul>
+        <a href="http://www.alexwiley.co.uk" target="_blank"><button>View Site</button></a>
+      </div>
+
+      <div class="lightbox" id="p8">
+        <img src="asset/Portfolio/web/platform.jpg" alt="Platform"/>
+        <ul>
+          <li><h3>Platform</h3></li>
+          <li><p>Website Design</p></li>
+        </ul>
+        <a href="#" target="_blank"><button>View Site</button></a>
+      </div>
+
+      <div class="lightbox" id="p9">
+        <img src="asset/Portfolio/content/bike.JPG" alt="ChazMan Photo Shoot"/>
+        <ul>
+          <li><h3>ChazMan Photo Shoot</h3></li>
+          <li><p>Photoshoot</p></li>
+        </ul>
+      </div>
+
+      <div class="lightbox" id="p10">
+        <img src="asset/Portfolio/content/bus1.jpg" alt="Business Photoshoot"/>
+        <ul>
+          <li><h3>Business Photoshoot</h3></li>
+          <li><p>Photoshoot</p></li>
+        </ul>
+      </div>
+
+      <div class="lightbox" id="p11">
+        <img src="asset/Portfolio/content/bus2.jpg" alt="Business Photoshoot"/>
+        <ul>
+          <li><h3>Business Photoshoot</h3></li>
+          <li><p>Photoshoot</p></li>
+        </ul>
+      </div>
+
+      <div class="lightbox" id="p12">
+        <img src="asset/Portfolio/content/bus3.jpg" alt="Business Photoshoot"/>
+        <ul>
+          <li><h3>Business Photoshoot</h3></li>
+          <li><p>Photoshoot</p></li>
+        </ul>
+      </div>
+
+      <div class="lightbox" id="p13">
+        <img src="asset/Portfolio/content/studio.JPG" alt="Studio Location"/>
+        <ul>
+          <li><h3>Camera Studio Shot</h3></li>
+          <li><p>Studio Location</p></li>
+        </ul>
+      </div>
+
+      <div class="lightbox" id="p14">
+        <img src="asset/Portfolio/content/tm.jpg" alt="This Memory"/>
+        <ul>
+          <li><h3>This Memory</h3></li>
+          <li><p>Photoshoot</p></li>
+        </ul>
+      </div>
+
+      <div class="lightbox" id="p15">
+        <img src="asset/Portfolio/content/card.jpg" alt="Business Card"/>
+        <ul>
+          <li><h3>Business Cards</h3></li>
+          <li><p>Website Design</p></li>
+        </ul>
+      </div>
+
+      <div class="lightbox" id="p16">
+        <div class="video">
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/9AIsT2z6N80?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <ul>
+          <li><h3>Amy Jackson - Bed Of Lies</h3></li>
+          <li><p>Music Video</p></li>
+        </ul>
+      </div>
+
+      <div class="lightbox" id="p17">
+        <img src="asset/Portfolio/hackathon/gitify.png" alt="Gitify"/>
+        <ul>
+          <li><h3>Gitify</h3></li>
+          <li><p>Hackathon Creation - Rewards For Pushing To GitHub</p></li>
+        </ul>
+      </div>
+
+      <div class="lightbox" id="p18">
+        <img src="asset/Portfolio/hackathon/instinct.png" alt="Instinct"/>
+        <ul>
+          <li><h3>Instinct</h3></li>
+          <li><p>Hackathon Creation - Online Code Learning Platform</p></li>
+        </ul>
+      </div>
+
+      <div class="lightbox" id="p19">
+        <img src="asset/Portfolio/content/hacs.jpg" alt="Hacs"/>
+        <ul>
+          <li><h3>HaCS - Computer Science Society</h3></li>
+          <li><p>Logo Design</p></li>
+        </ul>
+      </div>
+
+      <div class="lightbox" id="p20">
+        <img src="asset/Portfolio/content/wolfGemini.jpg" alt="Wolf Gemini"/>
+        <ul>
+          <li><h3>Wolf Gemini</h3></li>
+          <li><p>Logo Design</p></li>
+        </ul>
+      </div>
+
+
+    </section>
+
+    <footer id="contact">
+      <div class="contact-left">
+        <h3>Navigation</h3>
+        <hr/>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="contact-right">
+        <div class="contact-right-s1">
+          <h3>Get in touch!</h3>
+          <hr/>
+          <p>I operate as a <strong>freelance website developer.</strong> If you have any enquiries about available work; please feel free to drop me a message and we can discuss it further.</p>
+          <form method="post" action="form.php">
+            <fieldset>
+              <input name="email" type="text" value="Enter Email" onfocus="if(this.value == 'Enter Email'){this.value=''};" onblur="if(this.value == ''){this.value='Enter Email'};"/>
+              <input name="submit" value="Submit" type="submit"/>
+            </fieldset>
+          </form>
+      </div>
+        <div class="contact-right-s2">
+          <h3>Contact Details</h3>
+          <hr/>
+          <ul>
+            <li><strong>N:</strong> Alex Wiley</li>
+            <li><strong>E:</strong> alex@alexwiley.co.uk</li>
+            <li><strong>L:</strong> United Kingdom</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+  <script>
+    $('.animated').css({'opacity':'0'});
+    $('a').click(function(){
+      $('html, body').animate({
+          scrollTop: $( $.attr(this, 'href') ).offset().top
+      }, 500);
+      return false;
+    });
+
+    $(document).ready(function(){
+      $(".text-animation .rotate").textrotator({
+        animation: "flipUp",
+        speed: 4000
+      });
+    });
+
+    $(function(){
+
+  $('.portfolio-container').mixItUp({
+    animation:{
+      duration: 400,
+  	  effects: 'fade translateZ(-360px) stagger(34ms) scale(0.53) rotateX(112deg)',
+  	  easing: 'ease'
+    }
+  })
+  $('.portfolio-container').mixItUp('sort', 'random', true);
+  });
+
+  $('.mobile-nav').click(mobile);
+  $('.mobile-menu-link').click(mobile);
+
+  </script>
+
+  <script src="js/viewport.js">
+    //Initialise viewport watcher.
+  </script>
+
+  <script>
+
+  jQuery(document).ready(function($) {
+
+    // site preloader -- also uncomment the div in the header and the css style for #preloader
+    $(window).load(function(){
+      $('.pageLoad').fadeOut('slow',function(){
+        $(this).remove();
+        viewPort();
+      });
+    });
+
+  });
+
+  </script>
+
+  <script>
+    $(document).on("scroll", function(){
+      if( $(document).scrollTop() > 450){
+        $('.navigation').addClass('borderBottom');
+      }
+      else{
+        $('.navigation').removeClass('borderBottom');
+      }
+    });
+  </script>
+
+  <script>
+      particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 80,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": false,
+          "anim": {
+            "enable": false,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 6,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 140,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
+    $('#particles-js').css({'height':'600px !important'});
+</script>
+
+
+  </body>
+
+</html>
