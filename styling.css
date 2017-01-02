@@ -982,6 +982,15 @@ input, label{
 .p20{
   background-image: url('asset/Portfolio/content/wolfGemini.jpg');
 }
+.p21{
+  background-image: url('asset/Portfolio/web/flashback.jpg');
+}
+.p22{
+  background-image: url('asset/Portfolio/web/hackthemidlands.jpg');
+}
+.p23{
+  background-image: url('asset/Portfolio/web/consulting.jpg');
+}
 
 /* CONTACT */
 #contact{
@@ -1183,6 +1192,7 @@ input, label{
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
+  padding-top: 50px;
 }
 .page-load-content h1 span{
   font-weight: 500 !important;

@@ -229,6 +229,9 @@
         <div class="p18 p-content category-2 mix" data-myorder="8"><div data-featherlight="#p18"><span class="ion-ios-search-strong"></span></div></div>
         <div class="p19 p-content category-3 mix" data-myorder="8"><div data-featherlight="#p19"><span class="ion-ios-search-strong"></span></div></div>
         <div class="p20 p-content category-3 mix" data-myorder="8"><div data-featherlight="#p20"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p21 p-content category-1 mix" data-myorder="8"><div data-featherlight="#p21"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p22 p-content category-1 mix" data-myorder="8"><div data-featherlight="#p22"><span class="ion-ios-search-strong"></span></div></div>
+        <div class="p23 p-content category-1 mix" data-myorder="8"><div data-featherlight="#p23"><span class="ion-ios-search-strong"></span></div></div>
       </div>
       <!--Lightbox Elements-->
       <!-- <div class="lightbox" id="p1">
@@ -244,7 +247,7 @@
         <img src="asset/Portfolio/web/lussoegusto.jpg" alt="Lusso e Gusto"/>
         <ul>
           <li><h3>Lusso e Gusto</h3></li>
-          <li><p>Website Design</p></li>
+          <li><p>Website Production</p></li>
         </ul>
         <a href="http://www.lussoegusto.com" target="_blank"><button>View Site</button></a>
       </div>
@@ -253,7 +256,7 @@
         <img src="asset/Portfolio/web/akrams.jpg" alt="Akrams"/>
         <ul>
           <li><h3>Akrams</h3></li>
-          <li><p>Website Design</p></li>
+          <li><p>Website Production</p></li>
         </ul>
         <a href="http://www.akrams.biz" target="_blank"><button>View Site</button></a>
       </div>
@@ -262,7 +265,7 @@
         <img src="asset/Portfolio/web/adaptive-flair.jpg" alt="Adaptive Flair"/>
         <ul>
           <li><h3>Adaptive Flair</h3></li>
-          <li><p>Website Design</p></li>
+          <li><p>Website Production</p></li>
         </ul>
         <a href="http://www.adaptiveflair.com" target="_blank"><button>View Site</button></a>
       </div>
@@ -271,7 +274,7 @@
         <img src="asset/Portfolio/hackathon/codeacation.jpg" alt="Codeacation"/>
         <ul>
           <li><h3>Codeacation</h3></li>
-          <li><p>Website Design</p></li>
+          <li><p>Website Production</p></li>
         </ul>
         <a href="http://bcuhack.alexwiley.co.uk" target="_blank"><button>View Site</button></a>
       </div>
@@ -280,7 +283,7 @@
         <img src="asset/Portfolio/hackathon/hoard.jpg" alt="Do you even hoard?"/>
         <ul>
           <li><h3>Do you even hoard?</h3></li>
-          <li><p>Website Design</p></li>
+          <li><p>Website Production</p></li>
         </ul>
         <a href="http://www.doyouevenhoard.com" target="_blank"><button>View Site</button></a>
       </div>
@@ -289,7 +292,7 @@
         <img src="asset/Portfolio/web/alexwiley.jpg" alt="Alex Wiley"/>
         <ul>
           <li><h3>Alex wiley</h3></li>
-          <li><p>Website Design</p></li>
+          <li><p>Website Production</p></li>
         </ul>
         <a href="http://www.alexwiley.co.uk" target="_blank"><button>View Site</button></a>
       </div>
@@ -355,7 +358,7 @@
         <img src="asset/Portfolio/content/card.jpg" alt="Business Card"/>
         <ul>
           <li><h3>Business Cards</h3></li>
-          <li><p>Website Design</p></li>
+          <li><p>Website Production</p></li>
         </ul>
       </div>
 
@@ -401,6 +404,33 @@
         </ul>
       </div>
 
+      <div class="lightbox" id="p21">
+        <img src="asset/Portfolio/web/flashback.jpg" alt="Flashback Rewind"/>
+        <ul>
+          <li><h3>Flashback Rewind</h3></li>
+          <li><p>Website Production</p></li>
+        </ul>
+        <a href="http://dev.tryflashbackrewind.com/" target="_blank"><button>View Site</button></a>
+      </div>
+
+      <div class="lightbox" id="p22">
+        <img src="asset/Portfolio/web/hackthemidlands.jpg" alt="Hack The Midlands"/>
+        <ul>
+          <li><h3>Hack The Midlands</h3></li>
+          <li><p>Website Production</p></li>
+        </ul>
+        <a href="http://hackthemidlands.com" target="_blank"><button>View Site</button></a>
+      </div>
+
+      <div class="lightbox" id="p23">
+        <img src="asset/Portfolio/web/consulting.jpg" alt="Consulting History"/>
+        <ul>
+          <li><h3>Consulting History</h3></li>
+          <li><p>Website Production</p></li>
+        </ul>
+        <a href="http://consultinghistory.com/" target="_blank"><button>View Site</button></a>
+      </div>
+
 
     </section>
 
@@ -421,7 +451,7 @@
           <h3>Get in touch!</h3>
           <hr/>
           <p>I operate as a <strong>freelance website developer.</strong> If you have any enquiries about available work; please feel free to drop me a message and we can discuss it further.</p>
-          <form method="post" action="form.php">
+          <form method="post" id="contact-form" action="form.php" onsubmit="return sendForm()">
             <fieldset>
               <input name="email" type="text" value="Enter Email" onfocus="if(this.value == 'Enter Email'){this.value=''};" onblur="if(this.value == ''){this.value='Enter Email'};"/>
               <input name="submit" value="Submit" type="submit"/>
@@ -439,6 +469,13 @@
         </div>
       </div>
     </footer>
+
+    <script>
+      function stripHTML(){
+        var email = $('#contact-form input[name="email"');
+        email.html(email.val().replace(/<(?:.|\n)*?>/gm, ''));
+      }
+    </script>
 
   <script>
     $('.animated').css({'opacity':'0'});
